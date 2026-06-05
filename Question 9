@@ -1,0 +1,8 @@
+9. Find the Missing Number (1 to N)
+n = int(input("Enter N: "))
+numbers = list(map(int, input("Enter N-1 numbers: ").split()))
+
+expected_sum = n * (n + 1) // 2
+actual_sum = sum(numbers)
+
+print("Missing Number:", expected_sum - actual_sum)
