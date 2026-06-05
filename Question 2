@@ -1,0 +1,11 @@
+2. Palindrome Check (String or Number)
+def is_palindrome(value):
+    value = str(value)
+    return value == value[::-1]
+
+x = input("Enter a string or number: ")
+
+if is_palindrome(x):
+    print("Palindrome")
+else:
+    print("Not a palindrome")
